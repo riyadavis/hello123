@@ -6,7 +6,7 @@ class ExamApi extends CI_Controller {
 	public function __construct()
 	{
 		parent :: __construct();
-		$this->load->model('ExamDatabase');
+		// $this->load->model('ExamDatabase');
 	}
 	public function index()
 	{
